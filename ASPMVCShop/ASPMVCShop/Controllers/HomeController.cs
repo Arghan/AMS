@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ASPMVCShop.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class HomeController : Controller
     {
         private readonly IPieRepository _pieRepository;
